@@ -1,6 +1,6 @@
 # Rest Countries
 
-This is a frontend project for "Its a country api page where i test my skills as front end developer by using HTML CSS JS vanilla + API".  
+This is a frontend project for "Its a country api page where i test my skills as front end developer by using HTML CSS (responsivity) JS vanilla + API".  
 
 You can **see the live website** here:  
 
