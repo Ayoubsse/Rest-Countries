@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Rest Contries API</title>
+  </head>
+  <body>
+    <header>
+      <h3>Where in the world?</h3>
+      <button class="theme">
+        <i class="fa-regular fa-moon"></i>
+        <h4>Dark Mode</h4>
+      </button>
+    </header>
+    <main class="home">
+      <div class="head">
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            name="search"
+            placeholder="Search for a contry..."
+          />
+        </div>
+
+        <button class="filter">
+          Filter by Region
+          <i class="fa-solid fa-chevron-down"></i>
+          <div class="list">
+            <div class="none">None</div>
+            <div class="Africa">Africa</div>
+            <div class="Americas">America</div>
+            <div class="Asia">Asia</div>
+            <div class="Europe">Europe</div>
+            <div class="Oceania">Oceania</div>
+          </div>
+        </button>
+      </div>
+      <div class="content"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
