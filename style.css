@@ -203,7 +203,7 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: calc(100% - 65.5px);
+  
   padding: 50px;
   width: 100%;
   box-sizing: border-box;
