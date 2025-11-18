@@ -12,7 +12,6 @@ You can **see the live website** here:
 
 - Built with: HTML, CSS, JavaScript  
 - Features:
-  - User-friendly registration form
   - Interactive UI
   - Responsive design for mobile and desktop
   - Usage of API libraries
